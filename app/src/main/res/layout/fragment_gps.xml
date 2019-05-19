@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFF">
+
+    <!-- Activity에서는 fragment로 구현해야되지만
+   Fragment로 구현하기위해서는 MapView를 사용해야함-->
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/control_button"
+        android:name="com.google.android.gms.maps.MapFragment"
+        />
+
+    <com.basel.DualButton.DualButton
+        android:id="@+id/control_button"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        app:textFirst="START"
+        app:textSecond="STOP"
+        app:textColorFirst="#ffffff"
+        app:textColorSecond="#03A9F4"
+        app:backgroundColorFirst="#03A9F4"
+        app:backgroundColorSecond="#ffffff"/>
+
+    <TextView
+        android:id="@+id/distance_text"
+        android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="0.0m"
+        android:layout_above="@id/control_button"
+        android:layout_margin="10dp"/>
+
+
+        <!--<fragment-->
+            <!--android:id="@+id/place_autocomplete_fragment"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"-->
+            <!--&gt;-->
+        <!--</fragment>-->
+
+</RelativeLayout>

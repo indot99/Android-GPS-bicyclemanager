@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--#4B4452-->
+    <color name="sad">#4B4452</color>
+    <color name="angry">#FF5F63</color>
+    <color name="peace">#92B55F</color>
+    <color name="tired">#487D76</color>
+    <color name="happy">#E8DA5E</color>
+    <color name="hot">#FF5A5A</color>
+    <color name="cold">#2478FF</color>
+
+    <color name="first_drop_down_text_view_title">#FFDFF5FF</color>
+    <color name="first_drop_down_text_view_content">#323b40</color>
+
+    <color name="second_drop_down_text_view_title">#FFDFF5FF</color>
+    <color name="second_drop_down_text_view_content">#FF212C34</color>
+
+    <color name="third_drop_down_text_view_title">#34495e</color>
+    <color name="third_drop_down_text_view_content">#2c3e50</color>
+
+</resources>

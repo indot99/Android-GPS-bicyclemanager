@@ -1,0 +1,11 @@
+Suigen - 수원
+Osan - 오산
+Hwaseong - 화성
+Seoul - 서울
+Jeonju - 전주
+Daejeon - 대전
+Daegu - 대구
+Busan - 부산
+Sogcho - 속초
+
+https://openweathermap.org/weathermap?basemap=map&cities=true&layer=temperature&lat=37.3723&lon=127.3782&zoom=10

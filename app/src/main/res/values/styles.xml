@@ -1,0 +1,26 @@
+<resources>
+
+    <attr name="color_1" format="color"/>
+
+    <!-- Base application theme. -->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
+        <!--<item name="colorAccent">#69D2E7</item>-->
+        <!--<item name="colorPrimary">#A7DBD8</item>-->
+        <!--<item name="colorPrimaryDark">#E0E4CC</item>-->
+        <!--<item name="colorControlHighlight">#F38630</item>-->
+        <!--<item name="colorControlNormal">#FA6900</item>-->
+    <!--</style>-->
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorAccent">#4FD2D7</item>
+        <item name="colorPrimary">#50B2DA</item>
+        <item name="colorPrimaryDark">#4F8ED5</item>
+        <item name="colorControlHighlight">#4B67CB</item>
+        <item name="colorControlNormal">#4942B1</item>
+    </style>
+
+    <style name="SplashTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
+
+</resources>
