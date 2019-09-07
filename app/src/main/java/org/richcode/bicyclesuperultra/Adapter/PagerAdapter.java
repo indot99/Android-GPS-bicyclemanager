@@ -5,6 +5,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
 import org.richcode.bicyclesuperultra.FragmentGPS;
+import org.richcode.bicyclesuperultra.FragmentSell;
 import org.richcode.bicyclesuperultra.FragmentTip;
 
 public class PagerAdapter extends FragmentStatePagerAdapter {

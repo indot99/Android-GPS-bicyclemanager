@@ -9,22 +9,22 @@ import android.view.ViewGroup;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-public class FragmentTip extends Fragment {
+public class FragmentSell extends Fragment {
 
-    public FragmentTip() {
+    public FragmentSell() {
     }
 
     WebView wb;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View layout = inflater.inflate(R.layout.fragment_tip, container, false);
+        View layout = inflater.inflate(R.layout.fragment_sell, container, false);
 
-        wb = (WebView)layout.findViewById(R.id.wb_tip);
+        wb = (WebView)layout.findViewById(R.id.wb_sell);
 
         wb.getSettings().setJavaScriptEnabled(true);
         wb.setWebViewClient(new WebViewClient());
-        wb.loadUrl("https://woaks143.tistory.com");
+        wb.loadUrl("https://woaks143.tistory.com/category/자전거%20판매");
 
         return layout;
     }

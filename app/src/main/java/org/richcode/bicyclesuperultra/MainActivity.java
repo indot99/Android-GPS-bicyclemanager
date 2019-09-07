@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity{
 
         TabLayout tabLayout = (TabLayout)findViewById(R.id.tab_layout);
         tabLayout.addTab(tabLayout.newTab().setText("지도"));
-        tabLayout.addTab(tabLayout.newTab().setText("꿀팁"));
+        tabLayout.addTab(tabLayout.newTab().setText("SNS"));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
         final ViewPager viewPager = (ViewPager) findViewById(R.id.pager);
